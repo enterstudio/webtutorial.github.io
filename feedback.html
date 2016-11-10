@@ -8,17 +8,22 @@
     </head>
     <body>
         <nav w3-include-html="header-navigation.html"></nav>
-       something here
-<div id="fb-root"></div>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.8&appId=1824140747872840";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-        <div class="fb-comments" data-href="https://webtutorial.github.io/feedback.html" data-numposts="5"></div>
+        <div class="col-md-4"></div><div class="col-md-8">
+            Berikan tanggapan Anda terkait dengan situs ini, kami sangat menghargai masukan 
+        yang positif dan membangun agar situs ini dapat memberikan manfaat ke lebih banyak orang.
+        </div>
+        <div class="col-sm-6">
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.8&appId=1824140747872840";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+            <div class="fb-comments" data-href="https://webtutorial.github.io/feedback.html" data-numposts="5"></div>
+        </div>
+        <div class="col-sm-6"></div>
         <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
