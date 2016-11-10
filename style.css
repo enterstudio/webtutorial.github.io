@@ -1,6 +1,15 @@
-.tengah{
-    display: inline-block;
-    margin: 90px auto 0;
-    background: green;
-    height: 100%;
+#pilihbahasa div{
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 16;
+}
+.html{
+    background: #1abc9c
+}
+.css{
+    background: #9b59b6
+}
+.js{
+    background: #d35400
 }
