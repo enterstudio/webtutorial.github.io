@@ -1,19 +1,22 @@
 <html>
     <head>
-        <script src="js/include-html.js"></script>
-        <div w3-include-html="head.html"></div>
         <script src="js/jquery.js"></script>
-        <script>w3IncludeHTML();</script>
+        <script>
+            $(function(){
+                $("#header").load("head.html");
+                $("nav").load("header-navigation.html");
+            });
+        </script>
+        <div id="header"></div>
         <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
-        <nav w3-include-html="header-navigation.html"></nav>
+        <nav></nav>
         <div class="col-md-4"></div><div class="col-md-8">
             Berikan tanggapan Anda terkait dengan situs ini, kami sangat menghargai masukan 
         yang positif dan membangun agar situs ini dapat memberikan manfaat ke lebih banyak orang.
         </div>
         <div class="col-sm-6">
-            <div id="fb-root"></div>
             <div id="fb-root"></div>
             <script>(function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
