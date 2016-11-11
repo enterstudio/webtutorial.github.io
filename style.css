@@ -8,17 +8,47 @@
     line-height: 100px;
     height: 100px;
     color: white;
-    background: #bdc3c7;
 }
-a .html:hover{
+.panel{
+    font-family: 'Rubik', sans-serif;
+}
+.html,
+.css,
+.js{
+    background: #bdc3c7
+}
+.html:hover{
     background: #1abc9c
 }
-a .css:hover{
+.css:hover{
     background: #9b59b6
 }
-a .js:hover{
+.js:hover{
     background: #d35400
 }
 .navbar{
     border-radius: 0;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.mega-menu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.mega-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.mega-menu li{
+    color: #34495e;
+}
+.mega-menu li:hover{
+    color: #95a5a6;
+}
+.navbar-nav li{
+    position: static !important;
 }
