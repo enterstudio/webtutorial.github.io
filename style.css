@@ -27,7 +27,9 @@
     background: #d35400
 }
 .navbar{
-    border-radius: 0;
+    -webkit-border-radius:0 !important;
+    -moz-border-radius:0 !important;
+    border-radius: 0 !important;
 }
 #footer{
     position: fixed;
