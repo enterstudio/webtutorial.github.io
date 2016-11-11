@@ -1,16 +1,22 @@
 #pilihbahasa div{
     text-align: center;
-    line-height: 100px;
     color: white;
     font-size: 16;
 }
-.html{
+#pilihbahasa > div > a{
+    display: block;
+    line-height: 100px;
+    height: 100px;
+    color: white;
+    background: #bdc3c7;
+}
+a > .html:hover{
     background: #1abc9c
 }
-.css{
+a > .css:hover{
     background: #9b59b6
 }
-.js{
+a > .js:hover{
     background: #d35400
 }
 .navbar{
