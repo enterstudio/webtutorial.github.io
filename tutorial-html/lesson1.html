@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <script src="../js/jquery.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+                $("nav").load("navigation.html");
+            });
+        </script>
+        <link href="lesson1.css" rel="stylesheet"/>
+        <script src="../js/js.js"></script>
+        <script src="lesson1.js"></script>
+        <div id="header"></div>
+    </head>
+    <body>
+        <nav></nav>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <h1>Menggunakan Text Formatting dan Paragraf</h1>
+                <p>Anda akan belajar tentang cara menggunakan text formatting dan paragraf. 
+                    text formatting digunakan untuk mengatur format teks, sementara paragraf
+                    digunakan untuk mengatur agar suatu teks ditampilkan seperti sebuah paragraf,
+                    jenis-jenis text formatting yang akan Anda pelajari yaitu 
+                    <b>bold</b>, <i>italic</i>, <u>underline</u>.
+                </p>
+                <hr/>            
+            </div>
+            <div id="bold">
+                <div class="col-sm-12">
+                    <p>Untuk membuat text formatting bold, buat suatu teks agar diapit oleh tag bold, 
+                        contohnya adalah seperti ini: <code>&lt;b&gt;text&lt;/b&gt;</code>
+                        Sekarang buatlah teks "myBold" menjadi bold pada kalimat di bawah ini</p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea id="asalkode-bold" class="asalkode form-control col-sm-12">Seperti diketahui oleh publik bahwa myBold dari Web Tutorial kini semakin terkenal</textarea>
+                </div>
+                <div class="col-sm-6">
+                    <p id="hasilkode-bold" class="hasilkode col-sm-12"></p>
+                </div>
+                <div class="col-sm-12">
+                    <button class="btn btn-default lewati">Lewati</button>
+                </div>
+            </div>
+            <div id="italic">
+                <div class="col-sm-12">
+                    <p>Selanjutnya buat teks "The Italic" menjadi italic, petunjuk penggunaan : <code>&lt;i&gt;text&lt;/i&gt;</code></p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea id="asalkode-italic" class="asalkode form-control col-sm-12">CEO The Italic diketahui hendak menggelar lomba di Web Tutorial 1 minggu lagi</textarea>
+                </div>
+                <div class="col-sm-6">
+                    <p id="hasilkode-italic" class="hasilkode col-sm-12"></p>
+                </div>
+                <div class="col-sm-12">
+                    <button class="btn btn-default lewati">Lewati</button>
+                </div>
+            </div>
+            <div id="underline">
+                <div class="col-sm-12">
+                    <p>coba untuk menerapkan underline kepada kata "percobaan teknologi baru", petunjuk penggunaan : <code>&lt;u&gt;text&lt;/u&gt;</code></p>
+                </div>
+                <div class="col-sm-6">
+                    <textarea id="asalkode-underline" class="asalkode form-control col-sm-12">Web Tutorial menjadi pusat percobaan teknologi baru demi kemajuan dunia</textarea>
+                </div>
+                <div class="col-sm-6">
+                    <p id="hasilkode-underline" class="hasilkode col-sm-12"></p>
+                </div>
+                <div class="col-sm-12">
+                    <button class="btn btn-default lewati">Lewati</button>
+                </div>
+            </div>
+            <div id="paragraf">
+                <div class="col-sm-12">
+                    <p>Selanjutnya Anda akan mencoba menggunakan fungsi paragraf, 
+                    caranya adalah dengan mengapit suatu kalimat atau kata dengan tag p
+                    seperti ini : <code>&lt;p&gt;long text&lt;/p&gt;</code></p>
+                    <p>Pada uji coba kali ini, buat teks dibawah ini menjadi beberapa paragraf dengan 
+                    batasan yang telah ditentukan di tabel berikut</p>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Kalimat</th>
+                            <th>paragraf ke</th>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Curabitur nunc elit, feugiat ac sollicitudin eu, venenatis id tortor.</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Maecenas mattis mattis diam eget posuere.</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-6">
+                    <textarea id="asalkode-paragraf" class="asalkode form-control col-sm-12">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Curabitur nunc elit, feugiat ac sollicitudin eu, venenatis id tortor.
+Maecenas mattis mattis diam eget posuere.</textarea>
+                </div>
+                <div class="col-sm-6">
+                    <p id="hasilkode-paragraf" class="hasilkode col-sm-12"></p>
+                </div>
+                <div class="col-sm-12">
+                    <button class="btn btn-default lewati">Lewati</button>
+                </div>
+            </div>
+            <div id="lesson1-selesai" class="col-sm-12">
+                <p>Sekarang Anda telah berhasil mempelajari beberapa text formatting, lanjutkan ke tutorial selanjutnya</p>
+                <a class="btn btn-success" href="lesson2.html">lanjut ke tutorial berikutnya !</a>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
