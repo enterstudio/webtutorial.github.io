@@ -3,6 +3,7 @@
     -moz-border-radius:0 !important;
     border-radius: 0 !important;
 }
+/*
 .navbar-default{
     background: #039BE5;
     border-color: #03A9F4;
@@ -22,6 +23,7 @@
 .navbar-default .navbar-nav > li > a:hover{
     color: white;
 }
+*/
 .mega-menu{
     position: absolute;
     left: 0;
