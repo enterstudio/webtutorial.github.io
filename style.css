@@ -63,4 +63,8 @@
     background: black;
     display: block;
     z-index: 2;
+    text-align: center;
+}
+#preloader img{
+    margin-top: 15%
 }
