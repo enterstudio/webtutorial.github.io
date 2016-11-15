@@ -7,7 +7,9 @@
                 $("#footer").load("footer.html");
                 $("nav").load("navigation.html");
                 $(window).bind('load',function(){
-                    $("#preloader").remove();
+                    setTimeout(function(){
+                        $("#preloader").remove();
+                    },1000);
                 });
             });
         </script>
