@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="../js/jquery.js"></script>
+        <script>
+            $(function(){
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
+                $("nav").load("navigation.html");
+            });
+        </script>
+        <link href="../style.css" rel="stylesheet"/>
+        <div id="header"></div>
+    </head>
+    <body>
+        <nav></nav>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <h1>Background Color</h1>
+                <p>Property CSS background berguna untuk menentukan Efek latar belakang pada suatu elemen HTML.
+                Property yang biasa digunakan dalam CSS Background antara lain :</p>
+                <ul>
+                    <li>
+                        latar belakang warna yaitu dengan 
+                        <code>background-color</code> 
+                        atau 
+                        <code>background</code> 
+                        saja
+                    </li>
+                    <li>
+                        latar belakang gambar yaitu dengan
+                        <code>background-image</code>
+                    </li>
+                </ul>
+                <hr/>
+            </div>
+            <div id="latarbelakangwarna">
+                <div class="col-sm-12">
+                    <p>Sekarang kita akan membuat background color pada elemen body HTML. 
+                        Pada contoh dibawah ini, ubah warna latar belakang dari <code>#warna</code> 
+                        menjadi hijau dengan menambahkan properti css <code>background-color:green;</code>
+                    </p>
+                    <div class="col-sm-6">
+                        <textarea id="asalkode-background-color" class="asalkode form-control col-sm-12"></textarea>
+                    </div>
+                    <div class="col-sm-6">
+                        <textarea id="hasilkode-background-color" class="hasilkode form-control col-sm-12"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- masukkan konten di sini -->
+        <div id="footer"></div>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
