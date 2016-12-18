@@ -3,7 +3,6 @@ $(document).ready(function(){
         $("#hasil_nilai").html($("#nilai_awal").val());
         temporaryNilaiAwal = $("#nilai_awal").val();
         temporaryNilaiAwal = gantiPetik(temporaryNilaiAwal);
-        console.info($("#nilai_awal").val() + "|" + temporaryNilaiAwal);
         if(
             temporaryNilaiAwal == "alert(s_quotabcs_quot);" ||
             temporaryNilaiAwal == "alert(d_quotabcd_quot);"
