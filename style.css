@@ -9,27 +9,28 @@ body{
 #sambutan h1{
     margin: 0;
 }
-#copyright{
+#footer{
     display: block;
+    width: 100%;
     text-align: center;
     background: #222;
     line-height: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     border-top:1px solid #101010;
 }
-#copyright,
-#copyright a{
+#footer,
+#footer a{
     color: #9d9d9d;
     text-decoration: none;
 }
-#copyright:hover,
-#copyright a:hover{
+#footer:hover,
+#footer a:hover{
     color: #fff;
 }
 .wrapper{
     max-width: 800px;
-    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .navbar{
     -webkit-border-radius:0 !important;
