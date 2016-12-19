@@ -6,12 +6,30 @@ body{
     max-width: 100%;
     height: auto;
 }
+#sambutan h1{
+    margin: 0;
+}
+#copyright{
+    display: block;
+    text-align: center;
+    background: #222;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    border-top:1px solid #101010;
+}
+#copyright,
+#copyright a{
+    color: #9d9d9d;
+    text-decoration: none;
+}
+#copyright:hover,
+#copyright a:hover{
+    color: #fff;
+}
 .wrapper{
     max-width: 800px;
     margin-top: 50px;
-}
-#sambutan h1{
-    margin: 0;
 }
 .navbar{
     -webkit-border-radius:0 !important;
