@@ -1,3 +1,18 @@
+body{
+    background: url("images/person-writing.jpg") no-repeat;
+    background-size: cover;
+}
+#logo-webtutorial{
+    max-width: 100%;
+    height: auto;
+}
+.wrapper{
+    max-width: 800px;
+    margin-top: 50px;
+}
+#sambutan h1{
+    margin: 0;
+}
 .navbar{
     -webkit-border-radius:0 !important;
     -moz-border-radius:0 !important;
