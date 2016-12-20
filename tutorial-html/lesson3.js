@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
     
     merah_kuning_hijau();
-    (".asalkode").eq(1).keyup(merah_kuning_hijau);
+    $(".asalkode").eq(1).keyup(merah_kuning_hijau);
 
     function merah_kuning_hijau()
     {

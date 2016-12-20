@@ -108,6 +108,19 @@ body{
 }
 #wrapper{
     position: absolute;
-    background: rgba(255,255,255,0.4);
+    width: 100%;
+    background: rgba(255,255,255,0.5);
     min-height:100%;
+}
+#limiter{
+    display: block;
+    height: 60px;
+}
+@media(max-width:767px){
+    #logo-webtutorial{
+        display: none;
+    }
+    #limiter{
+        height: 110px;
+    }
 }
