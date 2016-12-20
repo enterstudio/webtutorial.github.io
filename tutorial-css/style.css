@@ -1,0 +1,8 @@
+body{
+    background: url("../images/person-typing-on-a-laptop-on-a-wooden-table.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#wrapper{
+    background: rgba(255,255,255,0.6);
+}
