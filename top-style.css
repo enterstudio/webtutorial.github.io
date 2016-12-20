@@ -17,9 +17,6 @@ body{
     height: 100px;
     color: white;
 }
-#sambutan p{
-    line-height: 22px;
-}
 .panel{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
