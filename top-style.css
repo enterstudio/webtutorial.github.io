@@ -1,3 +1,11 @@
+body{
+    background: url("images/person-writing.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#wrapper{
+    background: rgba(255,255,255,0.4);
+}
 #pilihbahasa div{
     text-align: center;
     color: white;
