@@ -11,4 +11,6 @@ $(document).ready(function(){
             $("#script_hasil_nilai").html("<script>" + $("#nilai_awal").val() + "</script>");
         }
     }); 
+	
+	
 });
