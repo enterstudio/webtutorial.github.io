@@ -37,3 +37,9 @@ body{
 #lihat-video{
     margin: 5px 0;
 }
+@media(max-width:500px){
+    #video-webtutorial > iframe{
+        width: 100%;
+        height: 250px;
+    }
+}
