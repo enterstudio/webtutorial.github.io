@@ -10,6 +10,7 @@
         </script>
         <link href="../style.css" rel="stylesheet"/>
         <link href="style.css" rel="stylesheet"/>
+        <link href="lesson1.css" rel="stylesheet"/>
         <script src="lesson1.js"></script>
         <div id="header"></div>
     </head>
@@ -60,17 +61,27 @@
                     <div class="col-sm-12">
                         <p>
                             Selanjutnya membuat background image, atur element <code>#backgroundgambar</code> 
-                            memiliki background berupa gambar ini
+                            memiliki background berupa gambar <span rel="popover" data-content="" data-image="../images/webtutorial-logo.png">ini</span>.
+                            Caranya adalah dengan menambahkan kode properti <code>background-image : url("lokasi-background")</code>
                         </p>
-                        <div class="col-sm-3">
-                            <img src="../images/webtutorial-logo.png"/>
-                        </div>
                     </div>
                 </div>
             </div>
             <!-- masukkan konten di sini -->
+            <div id="limiter"></div>
+            <div id="footer"></div>
         </div>
-        <div id="footer"></div>
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>        
+        <script>
+            $("span[rel=popover]").popover({
+                html:true,
+                trigger:'click',
+                placement : 'top',
+                content : function()
+                {
+                    return '<img src="'+ $(this).data('image')+ '"/>';
+                }
+            });
+        </script>
     </body>
 </html>
