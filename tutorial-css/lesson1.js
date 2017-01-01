@@ -5,7 +5,12 @@ $(document).ready(function(){
         
         //koreksi properti #latarbelakang
         warnalatarbelakang_elem = document.getElementById("latarbelakang");
-        warnalatarbelakang_val  = window.getComputedStyle(latarbelakangasal,null).getPropertyValue("background-color");
+        //ambil value dari properti background-color / background
+        warnalatarbelakang_val  = window.getComputedStyle(warnalatarbelakang_elem,null).getPropertyValue("background-color");
+        //jika warna #latarbelakang = hijau atau rgb (0,128,0) maka tampilkan #latarbelakanggambar
+        if(warnalatarbelakang_val == "rgb(0, 128, 0)")
+            //menampilkan #latarbelakanggambar
+            $("#latarbelakanggambar").css("display","block");
     });
     $("#latarbelakangwarna .lewati").click(function(){
         $("#latarbelakanggambar").css("display","block");
