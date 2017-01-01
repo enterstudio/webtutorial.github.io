@@ -7,4 +7,7 @@ $(document).ready(function(){
         warnalatarbelakang_elem = document.getElementById("latarbelakang");
         warnalatarbelakang_val  = window.getComputedStyle(latarbelakangasal,null).getPropertyValue("background-color");
     });
+    $("#latarbelakangwarna .lewati").click(function(){
+        $("#latarbelakanggambar").css("display","block");
+    });
 });
