@@ -1,8 +1,8 @@
 config = {
-    entry   : "./main.js",
+    entry   : "./main.jsx",
     output  : {
         path        : __dirname,
-        filename    : 'index.js'
+        filename    : './index.js'
     },
     devServer : {
         inline  : true,
